@@ -1,5 +1,5 @@
 # 🚀 Interactive Developer Portfolio
-
+# Pavitraa V Portfolio
 A modern **interactive portfolio website** built with **React, Vite, and TailwindCSS**, featuring smooth animations, 3D elements, and responsive design.
 This project showcases projects, skills, and personal information in a visually engaging way.
 
