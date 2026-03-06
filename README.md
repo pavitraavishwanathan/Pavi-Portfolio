@@ -1,61 +1,122 @@
-# Pavitraa V Portfolio
+# 🚀 Interactive Developer Portfolio
 
-Selamat datang di portofolio web pribadi saya! 🌐  
-Dibuat dengan React + Vite, ini adalah showcase dari project, skill, dan karya yang ingin saya bagikan.
-
-##  Struktur Project
-
-- `public/` — file statis (favicon, assets, dsb.)  
-- `src/` — code utama React (komponen, utilitas, dsb.)  
-- `index.html` — entry point halaman web  
-- `package.json` & `package-lock.json` — manajemen dependencies dan script  
-- `vite.config.js` — konfigurasi build dan dev server Vite  
-- `eslint.config.js` — aturan linting agar kodenya tetap bersih dan konsisten  
-
-##  Fitur Utama
-
-- Dibangun dengan **React + Vite** — ringan, cepat reload, dan performa build optimal  
-- **ESLint** telah terkonfigurasi agar coding style tetap rapi  
-- Struktur modular dan siap dikembangkan—bisa ditambahkan halaman “About”, “Projects”, dsb.
-
-##  Cara Jalankan
-
-1. Clone repository ini:
-```bash
-git clone https://github.com/rissss21/portofolio.git
-cd portofolio
-````
-
-2. Install dependencies:
-```bash
-npm install
-````
-
-3. Jalankan server lokal dengan hot reload:
-```bash
-npm run dev
-````
-
-4. Buat versi production:
-```bash
-npm run build
-````
-
-## &#x20;Quick Preview
-
-Jika sudah di-deploy (contoh: GitHub Pages, Netlify, Vercel), kamu bisa tambahkan link deploy di sini, misalnya:
-[🔗 Lihat versi live](https://username.github.io/portofolio/)
-
-## Tentang Saya
-
-Hai, saya Faris Edrik P (username GitHub: `rissss21`).
-Saya seorang Developer yang suka bikin aplikasi web ringan dengan tampilan modern dan performa tinggi. Scroll aja di project saya, dan jangan sungkan untuk reach out kalau ada pertanyaan!
-
-* **Email:** [email\_farisedrik21@gmail.com](mailto:email_farisedrik21@gmail.com)
-* **LinkedIn:** [linkedin.com/in/farisedp](https://www.linkedin.com/in/farisedp/)
-* **Instagram:** @farisedrikprayoga
+A modern **interactive portfolio website** built with **React, Vite, and TailwindCSS**, featuring smooth animations, 3D elements, and responsive design.
+This project showcases projects, skills, and personal information in a visually engaging way.
 
 ---
 
+## ✨ Features
 
-[1]: https://github.com/rissss21/portofolio "GitHub - rissss21/portofolio"
+* 🌌 Animated **Aurora background**
+* 🎴 Interactive **3D Lanyard Card (Three.js / React Three Fiber)**
+* ⚡ Smooth text animations (ShinyText & BlurText)
+* 📦 Project showcase using **ChromaGrid**
+* 🛠 Tools & Technologies section
+* 📱 Fully responsive design
+* 🎨 Modern UI with glowing card effects
+* 📩 Contact form integration
+
+---
+
+## 🛠 Tech Stack
+
+**Frontend**
+
+* React
+* Vite
+* Tailwind CSS
+
+**3D & Animations**
+
+* React Three Fiber
+* Drei
+* Rapier Physics
+* MeshLine
+* AOS (Animate on Scroll)
+
+**Utilities**
+
+* JavaScript (ES6+)
+
+---
+
+## 📂 Project Structure
+
+```
+portofolio/
+│
+├── public/
+│   └── assets/
+│       ├── card.glb
+│       ├── lanyard.png
+│       ├── faris.png
+│       └── faris1.png
+│
+├── src/
+│   ├── components/
+│   │   ├── Aurora/
+│   │   ├── BlurText/
+│   │   ├── ShinyText/
+│   │   ├── ProfileCard/
+│   │   ├── Lanyard/
+│   │   ├── ChromaGrid/
+│   │   └── ProjectModal/
+│   │
+│   ├── data.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/portfolio.git
+```
+
+Navigate into the project:
+
+```bash
+cd portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
+## 📸 Sections in the Portfolio
+
+* Hero Section
+* About Me
+* Tools & Technologies
+* Projects Showcase
+* Contact Form
+
+
+## 🎯 Future Improvements
+
+* Add blog section
+* Dark/Light mode toggle
+* Performance optimizations
+* More interactive 3D elements
